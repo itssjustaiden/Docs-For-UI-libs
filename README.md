@@ -1,4 +1,4 @@
-## THIS IS FOR PEOPLE WHO ALREADY KNOW WHAT THE FEATURES DO!!!
+## Rayfield
 
 To start using rayfield, you must load the Rayfield library with:
 ```lua
@@ -250,3 +250,6 @@ Updating a Paragraph
 ```lua
 Paragraph:Set({Title = "Paragraph Example", Content = "Paragraph Example"})
 ```
+
+
+-----------------------------------------------------------------------------------------------------------------
