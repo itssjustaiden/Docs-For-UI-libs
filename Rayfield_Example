@@ -1,0 +1,176 @@
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+local Window = Rayfield:CreateWindow({
+   Name = "Example Script",
+   Icon = 0,
+   LoadingTitle = "Welcome!",
+   LoadingSubtitle = "Hi",
+   ShowText = "",
+   Theme = "Default",
+   ToggleUIKeybind = "K",
+   DisableRayfieldPrompts = true,
+   DisableBuildWarnings = true,
+   ConfigurationSaving = {
+      Enabled = true,
+      FolderName = nil, -- Put "" like "ExampleFolder" to create a custom folder
+      FileName = "ExampleHub"
+   },
+   Discord = {
+      Enabled = false,
+      Invite = "noinvitelink",
+      RememberJoins = true
+   },
+   KeySystem = false,
+   KeySettings = {
+      Title = "Example",
+      Subtitle = "Key System",
+      Note = "No key needed",
+      FileName = "Key",
+      SaveKey = true,
+      GrabKeyFromSite = false,
+      Key = {"Hello"}
+   }
+})
+
+-- =====================
+-- TAB 1 - Part 1
+-- =====================
+local Tab1 = Window:CreateTab("Part 1", 0)
+local Section1 = Tab1:CreateSection("Basic Elements")
+
+local Button1 = Tab1:CreateButton({
+   Name = "Notify Button",
+   Callback = function()
+       Rayfield:Notify({
+           Title = "Hello!",
+           Content = "This is a notification from Part 1",
+           Duration = 5,
+           Image = 0
+       })
+   end
+})
+
+local Toggle1 = Tab1:CreateToggle({
+   Name = "Example Toggle",
+   CurrentValue = false,
+   Flag = "Toggle_1",
+   Callback = function(value)
+       print("Toggle Part 1:", value)
+   end
+})
+
+local Slider1 = Tab1:CreateSlider({
+   Name = "Example Slider",
+   Range = {0, 100},
+   Increment = 1,
+   Suffix = "Units",
+   CurrentValue = 50,
+   Flag = "Slider_1",
+   Callback = function(value)
+       print("Slider Part 1:", value)
+   end
+})
+
+local Input1 = Tab1:CreateInput({
+   Name = "Example Input",
+   CurrentValue = "",
+   PlaceholderText = "Type something...",
+   RemoveTextAfterFocusLost = false,
+   Flag = "Input_1",
+   Callback = function(text)
+       print("Input Part 1:", text)
+   end
+})
+
+local Dropdown1 = Tab1:CreateDropdown({
+   Name = "Example Dropdown",
+   Options = {"Option 1", "Option 2"},
+   CurrentOption = {"Option 1"},
+   MultipleOptions = false,
+   Flag = "Dropdown_1",
+   Callback = function(options)
+       print("Dropdown Part 1:", options)
+   end
+})
+
+-- =====================
+-- TAB 2 - Part 2
+-- =====================
+local Tab2 = Window:CreateTab("Part 2", 0)
+local Section2 = Tab2:CreateSection("Colors & Keys")
+
+local ColorPicker1 = Tab2:CreateColorPicker({
+   Name = "Pick a Color",
+   Color = Color3.fromRGB(255, 0, 0),
+   Flag = "ColorPicker_1",
+   Callback = function(color)
+       print("Color Selected:", color)
+   end
+})
+
+local Keybind1 = Tab2:CreateKeybind({
+   Name = "Example Keybind",
+   CurrentKeybind = "Q",
+   HoldToInteract = false,
+   Flag = "Keybind_1",
+   Callback = function(key)
+       print("Pressed Key:", key)
+   end
+})
+
+-- =====================
+-- TAB 3 - Part 3
+-- =====================
+local Tab3 = Window:CreateTab("Part 3", 0)
+local Section3 = Tab3:CreateSection("Text Elements")
+
+local Label1 = Tab3:CreateLabel("This is a label!")
+local Paragraph1 = Tab3:CreateParagraph({
+   Title = "Paragraph Title",
+   Content = "This is an example paragraph for Part 3."
+})
+
+local Divider1 = Tab3:CreateDivider()
+
+-- =====================
+-- TAB 4 - Part 4
+-- =====================
+local Tab4 = Window:CreateTab("Part 4", 0)
+local Section4 = Tab4:CreateSection("Mix of Elements")
+
+local Toggle2 = Tab4:CreateToggle({
+   Name = "Toggle 2",
+   CurrentValue = true,
+   Flag = "Toggle_2",
+   Callback = function(value)
+       print("Toggle Part 4:", value)
+   end
+})
+
+local Slider2 = Tab4:CreateSlider({
+   Name = "Slider 2",
+   Range = {0, 200},
+   Increment = 5,
+   Suffix = "Speed",
+   CurrentValue = 100,
+   Flag = "Slider_2",
+   Callback = function(value)
+       print("Slider Part 4:", value)
+   end
+})
+
+local Button2 = Tab4:CreateButton({
+   Name = "Notify Button 2",
+   Callback = function()
+       Rayfield:Notify({
+           Title = "Part 4 Button",
+           Content = "You clicked the button in Part 4!",
+           Duration = 5,
+           Image = 0
+       })
+   end
+})
+
+-- =====================
+-- Load Configuration
+-- =====================
+Rayfield:LoadConfiguration()
