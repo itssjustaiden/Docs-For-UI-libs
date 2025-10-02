@@ -263,7 +263,7 @@ You can change the configuration:
 Sense.teamSettings.enemy.enabled = true
 Sense.teamSettings.enemy.box = true
 Sense.teamSettings.enemy.boxColor[1] = Color3.new(0, 0.25, 0.75)
-``
+```
 Now, this is REQUIRED. You can put this anywhere, but it's recommended to put it at the end of your script (like rayfield's load config)
 ```lua
 Sense.Load()
