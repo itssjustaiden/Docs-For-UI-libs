@@ -1,0 +1,110 @@
+{
+    Name = "White",
+    Accent = {Color3.fromHex("#ffffff"), Color3.fromHex("#e0e0e0")},
+    Dialog = {Color3.fromHex("#f9f9f9"), Color3.fromHex("#ededed")},
+    Outline = {Color3.fromHex("#d0d0d0"), Color3.fromHex("#b0b0b0")},
+    Text = {Color3.fromHex("#000000"), Color3.fromHex("#333333")},
+    Placeholder = {Color3.fromHex("#aaaaaa"), Color3.fromHex("#888888")},
+    Background = {Color3.fromHex("#ffffff"), Color3.fromHex("#f0f0f0")},
+    Button = {Color3.fromHex("#e0e0e0"), Color3.fromHex("#d0d0d0")},
+    Icon = {Color3.fromHex("#333333"), Color3.fromHex("#555555")}
+},
+{
+    Name = "Ocean",
+    Accent = {Color3.fromHex("#4dc9ff"), Color3.fromHex("#0096ff")},
+    Dialog = {Color3.fromHex("#1c5d99"), Color3.fromHex("#0d3c66")},
+    Outline = {Color3.fromHex("#0066cc"), Color3.fromHex("#0050aa")},
+    Text = {Color3.fromHex("#ffffff"), Color3.fromHex("#e0f0ff")},
+    Placeholder = {Color3.fromHex("#99ccff"), Color3.fromHex("#66aaff")},
+    Background = {Color3.fromHex("#002b4d"), Color3.fromHex("#001f33")},
+    Button = {Color3.fromHex("#0096ff"), Color3.fromHex("#007acc")},
+    Icon = {Color3.fromHex("#ffffff"), Color3.fromHex("#cce6ff")}
+},
+{
+    Name = "Bloom",
+    Accent = {Color3.fromHex("#ff99cc"), Color3.fromHex("#ff66aa")},
+    Dialog = {Color3.fromHex("#ff66aa"), Color3.fromHex("#ff3388")},
+    Outline = {Color3.fromHex("#ff3399"), Color3.fromHex("#cc0077")},
+    Text = {Color3.fromHex("#ffffff"), Color3.fromHex("#ffe6f0")},
+    Placeholder = {Color3.fromHex("#ffb3d9"), Color3.fromHex("#ff80c0")},
+    Background = {Color3.fromHex("#330022"), Color3.fromHex("#1a0011")},
+    Button = {Color3.fromHex("#ff66aa"), Color3.fromHex("#ff3388")},
+    Icon = {Color3.fromHex("#ffffff"), Color3.fromHex("#ffccd9")}
+},
+{
+    Name = "Star",
+    Accent = {Color3.fromHex("#fff700"), Color3.fromHex("#ffd700")},
+    Dialog = {Color3.fromHex("#ffeb00"), Color3.fromHex("#ffd200")},
+    Outline = {Color3.fromHex("#ffe500"), Color3.fromHex("#ffc800")},
+    Text = {Color3.fromHex("#000000"), Color3.fromHex("#333300")},
+    Placeholder = {Color3.fromHex("#ffff66"), Color3.fromHex("#ffff33")},
+    Background = {Color3.fromHex("#333300"), Color3.fromHex("#1a1a00")},
+    Button = {Color3.fromHex("#ffea00"), Color3.fromHex("#ffd700")},
+    Icon = {Color3.fromHex("#333300"), Color3.fromHex("#666600")}
+},
+{
+    Name = "Rose",
+    Accent = {Color3.fromHex("#ff4d4d"), Color3.fromHex("#ff1a1a")},
+    Dialog = {Color3.fromHex("#cc0000"), Color3.fromHex("#990000")},
+    Outline = {Color3.fromHex("#ff0000"), Color3.fromHex("#cc0000")},
+    Text = {Color3.fromHex("#ffffff"), Color3.fromHex("#ffe6e6")},
+    Placeholder = {Color3.fromHex("#ff9999"), Color3.fromHex("#ff6666")},
+    Background = {Color3.fromHex("#330000"), Color3.fromHex("#1a0000")},
+    Button = {Color3.fromHex("#ff1a1a"), Color3.fromHex("#cc0000")},
+    Icon = {Color3.fromHex("#ffffff"), Color3.fromHex("#ffcccc")}
+},
+{
+    Name = "Cactus",
+    Accent = {Color3.fromHex("#33cc33"), Color3.fromHex("#009900")},
+    Dialog = {Color3.fromHex("#006600"), Color3.fromHex("#003300")},
+    Outline = {Color3.fromHex("#009900"), Color3.fromHex("#006600")},
+    Text = {Color3.fromHex("#ffffff"), Color3.fromHex("#ccffcc")},
+    Placeholder = {Color3.fromHex("#66ff66"), Color3.fromHex("#33cc33")},
+    Background = {Color3.fromHex("#003300"), Color3.fromHex("#001a00")},
+    Button = {Color3.fromHex("#00cc00"), Color3.fromHex("#009900")},
+    Icon = {Color3.fromHex("#ffffff"), Color3.fromHex("#ccffcc")}
+},
+{
+    Name = "Coffee",
+    Accent = {Color3.fromHex("#6f4e37"), Color3.fromHex("#4b2e2e")},
+    Dialog = {Color3.fromHex("#3e2723"), Color3.fromHex("#2c1a1a")},
+    Outline = {Color3.fromHex("#5d4037"), Color3.fromHex("#3e2723")},
+    Text = {Color3.fromHex("#ffffff"), Color3.fromHex("#f3e5f5")},
+    Placeholder = {Color3.fromHex("#8d6e63"), Color3.fromHex("#6d4c41")},
+    Background = {Color3.fromHex("#2c1a1a"), Color3.fromHex("#1a0f0f")},
+    Button = {Color3.fromHex("#4e342e"), Color3.fromHex("#3e2723")},
+    Icon = {Color3.fromHex("#ffffff"), Color3.fromHex("#d7ccc8")}
+}
+{
+    Name = "Volcano",
+    Accent = {Color3.fromHex("#ff4500"), Color3.fromHex("#ff8c00")},
+    Dialog = {Color3.fromHex("#8b0000"), Color3.fromHex("#ff6347")},
+    Outline = {Color3.fromHex("#b22222"), Color3.fromHex("#ff4500")},
+    Text = {Color3.fromHex("#ffffff"), Color3.fromHex("#ffe6e6")},
+    Placeholder = {Color3.fromHex("#ff7f50"), Color3.fromHex("#ff6347")},
+    Background = {Color3.fromHex("#330000"), Color3.fromHex("#660000")},
+    Button = {Color3.fromHex("#ff4500"), Color3.fromHex("#ff8c00")},
+    Icon = {Color3.fromHex("#ffffff"), Color3.fromHex("#ffcccc")}
+},
+{
+    Name = "Chocolate",
+    Accent = {Color3.fromHex("#6f4e37"), Color3.fromHex("#8b5a2b")},
+    Dialog = {Color3.fromHex("#4b2e2e"), Color3.fromHex("#5d4037")},
+    Outline = {Color3.fromHex("#3e2723"), Color3.fromHex("#5d4037")},
+    Text = {Color3.fromHex("#ffffff"), Color3.fromHex("#f3e5f5")},
+    Placeholder = {Color3.fromHex("#8d6e63"), Color3.fromHex("#6d4c41")},
+    Background = {Color3.fromHex("#2c1a1a"), Color3.fromHex("#3e2723")},
+    Button = {Color3.fromHex("#4e342e"), Color3.fromHex("#3e2723")},
+    Icon = {Color3.fromHex("#ffffff"), Color3.fromHex("#d7ccc8")}
+},
+{
+    Name = "Aurora",
+    Accent = {Color3.fromHex("#33ffcc"), Color3.fromHex("#9933ff")},
+    Dialog = {Color3.fromHex("#006633"), Color3.fromHex("#330066")},
+    Outline = {Color3.fromHex("#339966"), Color3.fromHex("#6600cc")},
+    Text = {Color3.fromHex("#ffffff"), Color3.fromHex("#e6ccff")},
+    Placeholder = {Color3.fromHex("#66ffcc"), Color3.fromHex("#cc99ff")},
+    Background = {Color3.fromHex("#001a00"), Color3.fromHex("#1a0033")},
+    Button = {Color3.fromHex("#33ffcc"), Color3.fromHex("#9933ff")},
+    Icon = {Color3.fromHex("#ffffff"), Color3.fromHex("#cc99ff")}
+}
